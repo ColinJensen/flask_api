@@ -52,5 +52,6 @@ if __name__ == "__main__":
     delete_trader_table()
     generate_trader_table()
     generate_trades_table()
-    execute_statement("EXEC InsertTraders")
+    #COMMENT BELOW OUT FOR FIRST TIME RUN (requires stored procedures to be made)
+    execute_statement("EXEC InsertTraders") 
     execute_statement("EXEC InsertTrades")
