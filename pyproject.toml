@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "flask-api"
+version = "0.1.0"
+description = ""
+authors = ["Colin Jensen <colin.jensen@drake.edu>"]
+readme = "README.md"
+packages = [{include = "flask_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.0"
+pyodbc = "^5.0.1"
+pyalchemy = "^0.0.7"
+node = "^1.2.1"
+pytest = "^7.4.3"
+black = "^23.11.0"
+pytest-mock = "^3.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
