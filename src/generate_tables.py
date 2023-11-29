@@ -1,3 +1,6 @@
+#Author:Colin Jensen
+#Desc: Functions to generate tables for database. If ran, will reset data
+
 from functions import execute_statement
 
 

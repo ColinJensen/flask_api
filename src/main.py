@@ -1,3 +1,6 @@
+#Author: Colin Jensen
+#Desc: Flask server with api for accessing trade data
+
 from flask import Flask
 from functions import select_statement, execute_statement
 

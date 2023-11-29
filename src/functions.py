@@ -1,5 +1,7 @@
-import pyodbc
+#Author:Colin Jensen
+#Desc: Functions to access database. Useful to mock out calls in tests
 
+import pyodbc
 
 class DatabaseAccessException(Exception):
     "Raised when database connection can not be established"
